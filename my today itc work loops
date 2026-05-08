@@ -1,0 +1,95 @@
+//task 1
+/*#include <iostream>
+using namespace std;
+
+int main() {
+    int n;          
+    int sum = 0;    
+
+    cout << "enter number: ";
+    cin >> n;
+
+    while (n >= 0) {    
+        sum = sum + n;  
+
+        cout << "sum: " << sum << endl;
+
+        cout << "next number: ";
+        cin >> n;       
+    }
+
+    cout << "Final Total: " << sum;
+
+    return 0;
+}*/
+//task 2
+/*# include <iostream>
+using namespace std;
+int main() {
+    int n = 0, i = 1, count = 0;
+    cout << "enter number";
+    cin >> n;
+    while (i <= n)
+    {
+        if (i % 2 != 0)
+        {
+            cout << "i=" << i<<endl;
+            count = count++;
+        }
+        i = i++;
+    }
+    cout << count << endl;
+    return 0;
+
+}*/
+//task 3
+/*# include <iostream>
+using namespace std;
+int main() {
+    int n = 0;
+    int i = 1;
+    int mul = 0;
+    int x = 0;
+    cout << "enter number";
+    cin >> x;
+    while (x > 0 && i < 11)
+    {
+        mul = x * i;
+        cout << "Table=" << mul << endl;
+        i = i + 1;
+    }
+    return 0;
+}*/
+//task 4
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num=0;
+    int positive = 0;
+    int negative = 0;
+
+    cout << "Enter numbers (0 to stop): ";
+    cin >> num;
+
+    while (num != 0)
+    {
+        if (num > 0)
+        {
+            positive++;
+        }
+        else if (num < 0)
+        {
+            negative++;
+        }
+
+        cin >> num;
+    }
+
+    cout << "Positive numbers: " << positive << endl;
+    cout << "Negative numbers: " << negative << endl;
+
+    return 0;
+}
