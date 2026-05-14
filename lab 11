@@ -1,0 +1,83 @@
+/*# include <iostream>
+using namespace std;
+int main() {
+	char choice = 0;
+	
+
+	do
+	{
+		int totalmarks = 0;
+		float obtain = 0;
+		float percentage = 0;
+
+		cout << "enter total marks=";
+		cin >> totalmarks;
+		cout << "obtain";
+		cin >> obtain;
+		percentage = (obtain / totalmarks) * 100;
+
+		if (obtain >= 49)
+
+		{
+			cout << "marks=" << percentage;
+			cout << "pass"<<endl;
+		}
+		else
+		{
+			cout << "fail"<<endl;
+		}
+			
+
+		cout << "enter choice";
+		cin >> choice;
+		
+
+
+	} while (choice == 'Y');
+
+
+	return 0;
+}*/
+/* # include <iostream>
+using namespace std;
+int main() {
+	int evensum = 0;
+	int oddsum = 0;
+	int num = 0;
+	cout << "enter integer";
+	cin >> num;
+	for (int i = 0; i <= num; i++)
+	{
+		if (i % 2 == 0)
+		{
+			cout << i << endl;
+			evensum = evensum + i;
+		
+		}
+		
+	}
+	cout << "even sum=" << evensum << endl;
+
+	for (int a = 0; a <= num; a++)
+	{
+		if (a % 2 != 0)
+		{
+			cout << "a=" << a << endl;
+			oddsum = oddsum + a;
+
+		}
+			
+	}
+	cout << "odd sum=" << oddsum << endl;
+	return 0;
+}*/
+// Task 3
+# include <iostream>
+int main() {
+
+	int num = 0;
+	cout << "Enter number0" << endl;
+
+	return 0;
+
+}
