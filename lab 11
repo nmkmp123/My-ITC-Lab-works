@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
 	char choice = 0;
-	
+
 
 	do
 	{
@@ -26,11 +26,11 @@ int main() {
 		{
 			cout << "fail"<<endl;
 		}
-			
+
 
 		cout << "enter choice";
 		cin >> choice;
-		
+
 
 
 	} while (choice == 'Y');
@@ -52,9 +52,9 @@ int main() {
 		{
 			cout << i << endl;
 			evensum = evensum + i;
-		
+
 		}
-		
+
 	}
 	cout << "even sum=" << evensum << endl;
 
@@ -66,18 +66,70 @@ int main() {
 			oddsum = oddsum + a;
 
 		}
-			
+
 	}
 	cout << "odd sum=" << oddsum << endl;
 	return 0;
 }*/
 // Task 3
-# include <iostream>
+/*# include <iostream>
+using namespace std;
 int main() {
 
-	int num = 0;
-	cout << "Enter number0" << endl;
+	int num = 0, reverse = 0, x = 0, remainder = 0;
+	cout << "Enter number=" << endl;
+	cin >> num;
+	x = num;
+	while (num > 0)
+	{
+		remainder = num % 10;
+		reverse = reverse * 10 + remainder;
+		num = num / 10;
+	}
+		if (x ==reverse)
+		{
+			cout << "Interger is palindron";
+
+		}
+		else
+			cout << "number is not palindron";
+	
 
 	return 0;
 
+}*/
+// Task 4
+/*# include <iostream>
+using namespace std;
+int main() {
+
+	int num = 0, sum = 0, digit = 0;
+	cout << "enter number:";
+	cin >> num;
+	while (num > 0)
+	{
+
+		digit = num % 10;
+		cout << digit << endl;
+		sum = sum + digit;
+		num = num / 10;
+	}
+	cout << "sum of digits=" << sum << endl;
+	return 0;
+}*/
+//Task 5
+/*
+# include <iostream>
+using namespace std;
+int main() {
+	int num = 0, digit = 0, square = 0;
+	cout << "enter number=";
+	cin >>num;
+	while (num > 0)
+	{
+		digit = num % 10;
+	square = digit * digit;
+	num = num / 10;
+	cout << "digit=" << digit << "squre=" << square << endl;
 }
+
